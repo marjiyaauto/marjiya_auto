@@ -1,6 +1,9 @@
-# Allow all search engines to crawl all pages
 User-agent: *
-Disallow:
+Allow: /
 
-# Sitemap file location
-Sitemap: https://marjiyaauto.github.io/Marjiya-Auto/sitemap.xml
+# Block unnecessary files (optional)
+Disallow: /admin/
+Disallow: /private/
+
+# Sitemap location
+Sitemap: https://marjiyaauto.github.io/marjiya_auto/sitemap.xml
